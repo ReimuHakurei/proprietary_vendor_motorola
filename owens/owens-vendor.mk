@@ -250,7 +250,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/owens/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
     vendor/motorola/owens/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/motorola/owens/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/motorola/owens/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so
+    vendor/motorola/owens/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+    vendor/motorola/owens/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
+    vendor/motorola/owens/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml
 
 PRODUCT_PACKAGES += \
     DMConfigUpdate \
@@ -263,5 +265,4 @@ PRODUCT_PACKAGES += \
     DiagMon \
     LifetimeData \
     SprintDM \
-    atfwd \
-    qcrilmsgtunnel
+    GCS
