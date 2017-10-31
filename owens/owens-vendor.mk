@@ -52,6 +52,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/owens/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
     vendor/motorola/owens/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
     vendor/motorola/owens/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
+    vendor/motorola/owens/proprietary/lib/libdesense.so:system/lib/libdesense.so \
+    vendor/motorola/owens/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
+    vendor/motorola/owens/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/motorola/owens/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
     vendor/motorola/owens/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/motorola/owens/proprietary/vendor/lib/libchromatix_ar1335_postproc.so:system/vendor/lib/libchromatix_ar1335_postproc.so \
@@ -229,3 +232,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/owens/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/motorola/owens/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/motorola/owens/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so
+
+PRODUCT_PACKAGES += \
+    DMConfigUpdate \
+    HiddenMenu \
+    CNEService \
+    CQATest \
+    ConnMO \
+    DCMO \
+    DMService \
+    DiagMon \
+    LifetimeData \
+    SprintDM \
+    atfwd \
+    qcrilmsgtunnel
